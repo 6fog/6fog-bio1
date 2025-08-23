@@ -84,8 +84,8 @@ a, button, .linkedAccountsRedirect svg, .popup-button {
                 Você será redirecionado para Discord. Deseja continuar?
             </p>
             <div class="popup-buttons">
-                <button class="popup-button popup-button-confirm" id="popup-confirm">Continuar</button>
-                <button class="popup-button popup-button-cancel" id="popup-cancel">Cancelar</button>
+                <button class="popup-button popup-button-confirm" id="popup-confirm">Continue</button>
+                <button class="popup-button popup-button-cancel" id="popup-cancel">Cancel</button>
             </div>
         </div>
     </div>
@@ -220,11 +220,11 @@ a, button, .linkedAccountsRedirect svg, .popup-button {
                             <div class="discordUserDiv">
                                 <span>6fog</span>
                                 <div class="discordUserBadges">
-                                    <div class="discordUserBadge" data-tooltip="Completou uma Missão">
+                                    <div class="discordUserBadge" data-tooltip="Completed a Quest">
                                         <img src="/img/mission.png" alt="Discord Badge">
                                     </div>
                                     <div class="discordUserBadge" data-tooltip="Server boosting since Jun 13, 2024">
-                                        <img src="/public/img/boost.png" alt="Discord Badge">
+                                        <img src="/img/boost.png" alt="Discord Badge">
                                     </div> -->
 
                                 </div>
@@ -449,7 +449,7 @@ container.addEventListener('mouseenter', (e) => {
                 currentPlatform = this.getAttribute('data-type');
                 
                 // Configurar a mensagem do popup
-                popupMessage.textContent = `Você será redirecionado para ${currentPlatform}. Deseja continuar?`;
+                popupMessage.textContent = `You will be redirected to ${currentPlatform}. Do you wish to continue?`;
                 
                 // Mostrar o popup
                 popup.classList.add('active');
